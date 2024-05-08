@@ -9,6 +9,5 @@ pr.addEmp(Employee("Diana", "Prince", 100000))
 pr.addEmp(Employee("King", "T'Challa", 140000))
 pr.addEmp(Employee("Carol", "Danvers", 150000))
 
-print(pr)
-
-
+# Print the total payroll
+print("Total Payroll: $", pr.total())
